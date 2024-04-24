@@ -1,3 +1,5 @@
+package list;
+
 import list.MyList;
 
 import java.util.Iterator;
@@ -140,5 +142,4 @@ public class MyLinkedList<T> implements MyList<T> {
         }
     }
 
-    // ...
 }

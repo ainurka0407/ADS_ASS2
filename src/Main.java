@@ -1,3 +1,6 @@
+import list.MyArrayList;
+import list.MyLinkedList;
+
 import java.util.Iterator;
 
 public class Main {
@@ -6,7 +9,6 @@ public class Main {
         list.MyList<Integer> linkedList = new MyLinkedList<>();
 
 
-        // Add elements
         arrayList.add(1);
         arrayList.add(2);
         arrayList.add(3);
@@ -17,7 +19,6 @@ public class Main {
 
 
 
-        // Iterate over elements
         System.out.println("ArrayList:");
         Iterator<Integer> arrayListIterator = arrayList.iterator();
         while (arrayListIterator.hasNext()) {
